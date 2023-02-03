@@ -2,31 +2,31 @@ modLoader="javafml"
 loaderVersion="[36,)"
 
 license="MIT"
-issueTrackerURL="https://github.com/Hellish-Mods/Hellish-Localization/issues"
+issueTrackerURL="https://github.com/Hellish-Mods/hellishtemplate/issues"
 
 [[mods]]
-modId="hellishlocalization"
+modId="hellishtemplate"
 version="${file.jarVersion}"
 
-displayName="Hellish Localization"
-displayURL="https://www.curseforge.com/minecraft/mc-mods/hellish-localization"
+displayName="hellishtemplate"
+displayURL="https://www.curseforge.com/minecraft/mc-mods/hellishtemplate"
 logoFile="pack.png"
 
 authors="Hellish Mods & Modern Modpacks"
 credits="""
-G_cat (Coding, russian localization)
+G_cat (Coding)
 """
 
-description="Adds localization to mods that lack it"
+description="hellishtemplate"
 
-[[dependencies.hellishlocalization]]
+[[dependencies.hellishtemplate]]
     modId="forge"
     mandatory=true
 
     versionRange="[36,)"
     ordering="NONE"
     side="BOTH"
-[[dependencies.hellishlocalization]]
+[[dependencies.hellishtemplate]]
     modId="minecraft"
     mandatory=true
 
