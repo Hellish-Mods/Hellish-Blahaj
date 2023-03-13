@@ -13,8 +13,8 @@ apply plugin: 'eclipse'
 apply plugin: 'maven-publish'
 
 version = new Date().format('dd-MM-yyyy-HH-mm-ss')
-group = 'site.hellishmods.hellishtemplate'
-archivesBaseName = 'hellishtemplate'
+group = 'site.hellishmods.blahaj'
+archivesBaseName = 'blahaj'
 
 java.toolchain.languageVersion = JavaLanguageVersion.of(8)
 
@@ -29,7 +29,7 @@ minecraft {
             property 'forge.logging.console.level', 'debug'
 
             mods {
-                hellishtemplate {
+                blahaj {
                     source sourceSets.main
                 }
             }
@@ -41,7 +41,7 @@ minecraft {
             property 'forge.logging.console.level', 'debug'
 
             mods {
-                hellishtemplate {
+                blahaj {
                     source sourceSets.main
                 }
             }
@@ -60,17 +60,18 @@ dependencies {
     minecraft 'net.minecraftforge:forge:1.16.5-36.2.34'
 
     implementation fg.deobf("curse.maven:jei-238222:4060770")
+    implementation fg.deobf("curse.maven:jer-240630:3435305")
 }
 
 jar {
     manifest {
         attributes([
-            "Specification-Title": "hellishtemplate",
-            "Specification-Vendor": "hellishtemplateareus",
+            "Specification-Title": "blahaj",
+            "Specification-Vendor": "blahajareus",
             "Specification-Version": "1",
             "Implementation-Title": project.name,
             "Implementation-Version": "${version}",
-            "Implementation-Vendor" :"hellishtemplatesareus",
+            "Implementation-Vendor" :"blahajsareus",
             "Implementation-Timestamp": new Date().format("yyyy-MM-dd'T'HH:mm:ssZ")
         ])
     }

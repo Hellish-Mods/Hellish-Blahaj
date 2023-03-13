@@ -2,14 +2,14 @@ modLoader="javafml"
 loaderVersion="[36,)"
 
 license="MIT"
-issueTrackerURL="https://github.com/Hellish-Mods/hellishtemplate/issues"
+issueTrackerURL="https://github.com/Hellish-Mods/hellish-blahaj/issues"
 
 [[mods]]
-modId="hellishtemplate"
+modId="blahaj"
 version="${file.jarVersion}"
 
-displayName="hellishtemplate"
-displayURL="https://www.curseforge.com/minecraft/mc-mods/hellishtemplate"
+displayName="Hellish Blåhaj"
+displayURL="https://www.curseforge.com/minecraft/mc-mods/hellish-blahaj"
 logoFile="pack.png"
 
 authors="Hellish Mods & Modern Modpacks"
@@ -17,16 +17,16 @@ credits="""
 G_cat (Coding)
 """
 
-description="hellishtemplate"
+description="Soft toy, shark mod, 16px."
 
-[[dependencies.hellishtemplate]]
+[[dependencies.blahaj]]
     modId="forge"
     mandatory=true
 
     versionRange="[36,)"
     ordering="NONE"
     side="BOTH"
-[[dependencies.hellishtemplate]]
+[[dependencies.blahaj]]
     modId="minecraft"
     mandatory=true
 
