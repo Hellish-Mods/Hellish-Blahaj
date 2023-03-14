@@ -17,7 +17,7 @@ credits="""
 G_cat (Coding)
 """
 
-description="Soft toy, shark mod, 16px."
+description="Soft toy, shark mod, 16px, Hellish style."
 
 [[dependencies.blahaj]]
     modId="forge"
