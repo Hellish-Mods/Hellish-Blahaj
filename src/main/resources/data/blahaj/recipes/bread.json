@@ -1,0 +1,22 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"OOO",
+		"OOO"
+	],
+	"key": {
+		"O": {
+			"item": "minecraft:orange_wool"
+		}
+	},
+	"result": {
+		"item": "blahaj:bread",
+		"count": 1
+	},
+	"conditions": [
+		{
+			"values": [{"type": "blahaj:bread"}],
+			"type": "forge:and"
+		}
+	]
+}
