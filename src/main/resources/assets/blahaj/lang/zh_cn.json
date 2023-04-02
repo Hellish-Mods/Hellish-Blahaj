@@ -1,8 +1,6 @@
 {
 	"item.blahaj.blue_shark": "毛绒鲨鱼玩具",
-	"item.blahaj.blue_shark.tooltip": "a.k.a. Blahåj",
 	"item.blahaj.gray_shark": "灰色鲨鱼玩具",
-	"item.blahaj.gray_shark.tooltip": "a.k.a. Klappar Haj",
 	"item.blahaj.bread": "面包抱枕",
 	"tooltip.blahaj.owner.craft": "由%s合成",
 	"tooltip.blahaj.owner.rename": "%s属于%s"
