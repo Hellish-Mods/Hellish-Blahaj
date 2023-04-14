@@ -28,7 +28,7 @@ public class blahaj
         ModLoadingContext.get().registerConfig(Type.COMMON, ConfigInit.SPEC, MOD_ID+"-common.toml"); // Config
         ItemInit.init(); // Items
 
-        ITEMS.register(bus); // Add item regestry to bus
+        ITEMS.register(bus); // Add item registry to bus
 
         MinecraftForge.EVENT_BUS.register(this); // Register mod
     }
