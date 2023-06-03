@@ -6,12 +6,14 @@ import site.hellishmods.blahaj.blahaj;
 import site.hellishmods.blahaj.lib.PillowItem;
 
 public class ItemInit {
-    public static RegistryObject<Item> grayShork; 
+    public static RegistryObject<Item> shork;
+    public static RegistryObject<Item> grayShork;
+    public static RegistryObject<Item> bread;
 
     // Add items
     public static void init() {
-        blahaj.ITEMS.register("blue_shark", () -> new PillowItem()); // Blahaj
+        shork = blahaj.ITEMS.register("blue_shark", () -> new PillowItem()); // Blahaj
         grayShork = blahaj.ITEMS.register("gray_shark", () -> new PillowItem()); // Klappar Haj
-        blahaj.ITEMS.register("bread", () -> new PillowItem()); // Bread
+        bread = blahaj.ITEMS.register("bread", () -> new PillowItem()); // Bread
     }
 }

@@ -4,6 +4,14 @@
 		"0": "blahaj:item/shork",
 		"particle": "#0"
 	},
+	"overrides": [
+		{
+			"predicate": {
+				"blahaj:is_beyou": 1
+			},
+			"model": "blahaj:item/trans_shark"
+		}
+	],
 	"elements": [
 		{
 			"name": "shork",
