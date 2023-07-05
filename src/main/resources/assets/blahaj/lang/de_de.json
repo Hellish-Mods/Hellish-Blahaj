@@ -1,1 +1,9 @@
-
+{
+	"item.blahaj.blue_shark": "Blau Spielzeughai",
+	"item.blahaj.blue_shark.tooltip": "Auch bekannt als Blåhaj",
+	"item.blahaj.gray_shark": "Grauer Spielzeughai",
+	"item.blahaj.gray_shark.tooltip": "Auch bekannt als Klappar Haj",
+	"item.blahaj.bread": "Brotkissen",
+	"tooltip.blahaj.owner.craft": "Erstellt von %s",
+	"tooltip.blahaj.owner.rename": "%s von %s"
+}
