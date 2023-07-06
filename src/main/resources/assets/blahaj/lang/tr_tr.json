@@ -1,0 +1,9 @@
+{
+	"item.blahaj.blue_shark": "Yumuşak Oyuncak Köpekbalığı",
+	"item.blahaj.blue_shark.tooltip": "Diğer adıyla, Blåhaj",
+	"item.blahaj.gray_shark": "Gri Oyuncak Köpekbalığı",
+	"item.blahaj.gray_shark.tooltip": "Diğer adıyla, Klappar Haj",
+	"item.blahaj.bread": "Ekmek Yastığı",
+	"tooltip.blahaj.owner.craft": "%s Tarafından Craft'landı",
+	"tooltip.blahaj.owner.rename": "%s (%s'in Blahaj'ı)"
+}
