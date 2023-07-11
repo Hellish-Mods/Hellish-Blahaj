@@ -1,0 +1,9 @@
+{
+	"item.blahaj.blue_shark": "Requin jouet doux",
+	"item.blahaj.blue_shark.tooltip": "alias Blåhaj",
+	"item.blahaj.gray_shark": "Requin jouet gris",
+	"item.blahaj.gray_shark.tooltip": "alias Klappar Haj",
+	"item.blahaj.bread": "Oreiller de pain",
+	"tooltip.blahaj.owner.craft": "Fabriqué par %s",
+	"tooltip.blahaj.owner.rename": "%s de %s"
+}

@@ -1,0 +1,9 @@
+{
+	"item.blahaj.blue_shark": "Tiburón de juguete suave",
+	"item.blahaj.blue_shark.tooltip": "alias Blåhaj",
+	"item.blahaj.gray_shark": "Tiburón gris de juguete",
+	"item.blahaj.gray_shark.tooltip": "alias Klappar Haj",
+	"item.blahaj.bread": "Almohada de pan",
+	"tooltip.blahaj.owner.craft": "Fabricado por %s",
+	"tooltip.blahaj.owner.rename": "%s de %s"
+}
