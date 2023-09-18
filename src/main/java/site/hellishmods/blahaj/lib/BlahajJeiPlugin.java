@@ -22,6 +22,7 @@ public class BlahajJeiPlugin implements IModPlugin { // JEI plugin
     @Override
     public void onRuntimeAvailable(IJeiRuntime r) {
         if(!ConfigInit.GrayHajEnabled.get()) r.getIngredientManager().removeIngredientsAtRuntime(VanillaTypes.ITEM, Lists.newArrayList(ItemInit.grayShork.get().getDefaultInstance()));
+        if(!ConfigInit.WhaleEnabled.get()) r.getIngredientManager().removeIngredientsAtRuntime(VanillaTypes.ITEM, Lists.newArrayList(ItemInit.whale.get().getDefaultInstance()));
         if(!ConfigInit.BreadEnabled.get()) r.getIngredientManager().removeIngredientsAtRuntime(VanillaTypes.ITEM, Lists.newArrayList(ItemInit.bread.get().getDefaultInstance()));
     }
 }

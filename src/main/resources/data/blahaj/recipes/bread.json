@@ -15,8 +15,10 @@
 	},
 	"conditions": [
 		{
-			"values": [{"type": "blahaj:bread"}],
-			"type": "forge:and"
+			"values": [{
+				"type": "blahaj:config",
+				"config": "bread"
+			}]
 		}
 	]
 }

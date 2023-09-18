@@ -9,10 +9,12 @@ public class ConfigInit {
 
     public static final ForgeConfigSpec.ConfigValue<Boolean> GrayHajEnabled; // Is Klappar Haj enabled?
     public static final ForgeConfigSpec.ConfigValue<Boolean> BreadEnabled; // Is bread enabled?
+    public static final ForgeConfigSpec.ConfigValue<Boolean> WhaleEnabled; // Is Blavingad enabled?
 
     static {
-        GrayHajEnabled = BUILDER.comment("Is the Klappar Haj enabled? (Should it spawn naturally in the world?)").define("Klappar Haj", true);
-        BreadEnabled = BUILDER.comment("Is the bread pillow enabled? (Should it be craftable?)").define("Bread", true);
+        GrayHajEnabled = BUILDER.comment("Enable Klappar Haj? (Should it spawn naturally in the world?)").define("Klappar Haj", true);
+        WhaleEnabled = BUILDER.comment("Enable Blavingad? (Should it be craftable?)").define("Blavingad", true);
+        BreadEnabled = BUILDER.comment("Enable the bread pillow? (Should it be craftable?)").define("Bread", true);
 
         SPEC = BUILDER.build();
     }
